@@ -1,10 +1,11 @@
 {
   "name": "front-my-money",
   "version": "1.0.0",
-  "description": "Front end do projeto",
+  "description": "Front end do projeto my-money",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server --progress --colors --inline --hot",
+    "production": "webpack --progress -p"
   },
   "keywords": [],
   "author": "",
