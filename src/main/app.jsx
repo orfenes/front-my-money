@@ -1,8 +1,12 @@
 import '../commom/template/dependecies'
 import React  from 'react'
 
+import Header from '../commom/template/header'
+import SideBar from '../commom/template/sideBar'
+
 export default props => (
   <div className='wrapper'>
-    <h1>App</h1>
+    <Header />
+    <SideBar />
   </div>
 )

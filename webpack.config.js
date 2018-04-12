@@ -10,7 +10,7 @@ module.exports = {
   },
 
   devServer:{
-    port: 8080,
+    port: 9000,
     contentBase: './public'
   },
 
@@ -21,8 +21,6 @@ module.exports = {
       jquery: 'modules/admin-lte/plugins/jQuery/jquery-2.2.3.min.js',
       bootstrap: 'modules/admin-lte/bootstrap/js/bootstrap.js'
     }
-
-    // node_modules//admin-lte/plugins/jQuery/jquery-2.2.3.min.js
   },
 
   plugins: [
